@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/f2cfef_d3bb47173ae84f2b9b23a609150532be~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/f2cfef_d3bb47173ae84f2b9b23a609150532be~mv2.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="Css/usuarios.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Plasfacol - Contenido</title> 
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src=https://static.wixstatic.com/media/f2cfef_d3bb47173ae84f2b9b23a609150532be~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/f2cfef_d3bb47173ae84f2b9b23a609150532be~mv2.png alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Juancho</span>
+                    <span class="profession">Admin</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-home icon' ></i>
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-user icon'></i>
+                            <span class="text nav-text">Clientes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-truck icon'></i>
+                            <span class="text nav-text">Proveedores</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-data icon'></i>
+                            <span class="text nav-text">Existencias</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-box icon'></i>
+                            <span class="text nav-text">Productos</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-down-arrow-circle icon'></i>
+                            <span class="text nav-text">Salida</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-up-arrow-circle icon'></i>
+                            <span class="text nav-text">Entradas</span>
+                            
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Cerrar</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Modo oscuro</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+
+        <div class="titulo">    
+            <h1>Inventario</h1>
+        </div>
+
+        <div class="fecha"></div>
+
+        <div class="container">
+
+            <div class="barra-nav">
+
+                <table class="tab-1">
+
+                    <tbody>
+
+                        <td>
+                            <h1 class="t-l">Lista de usuarios</h1>
+                        </td>
+
+                        <td>
+                            <span class="p-l">Buscar por:</span>
+                        </td>
+
+                        <td>
+                            <select name="filtro" id="filtro">
+                                <option value="">Nombre</option>
+                                <option value="">Rol</option>
+                                <option value="">Correo</option>
+                                <option value="">Contraseña</option>
+                                <option value="">Identificación</option>
+                            </select>
+                        </td>
+
+                        <td class="buscar">
+                            <input type="text" placeholder="Buscar..." style="width: 100%;">
+                        </td>
+
+                        <td>
+                            <li class="nav-link n-b nav-us1">
+                                <a href="#">
+                                    <i class='bx bx-search-alt-2 icon1 icon-b'></i>
+                                </a>
+                            </li>
+                        </td>
+
+                        <td>
+                            <li class="nav-link n-b nav-us2">
+                                <a href="#">
+                                    <i class='bx bxs-plus-circle icon2 icon-b'></i>
+                                </a>
+                            </li>
+                        </td>
+
+                        <td>
+                            <li class="nav-link n-b nav-us3">
+                                <a href="#">
+                                    <i class='bx bx-edit-alt icon3 icon-b'></i>
+                                </a>
+                            </li>
+                        </td>
+
+                        <td>
+                            <li class="nav-link n-b nav-us4">
+                                <a href="#">
+                                    <i class='bx bx-lock-alt icon4 icon-b'></i>
+                                </a>
+                            </li>
+                        </td>    
+                        
+                    </tbody>
+
+                </table>
+                
+            </div>       
+
+                <div class="lista">
+
+                    <table border="1" class="tab-l">
+                        <thead>
+                            <tr>
+                                <th>Nombre y apellido</th>
+                                <th>Rol</th>
+                                <th>Correo</th>
+                                <th>Contraseña</th>
+                                <th>Identificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Nombre y apellido:">Juan Gongora</td>
+                                <td data-label="Rol:">Admin</td>
+                                <td data-label="Correo:">Jdgongora@gmail.com</td>
+                                <td data-label="Contraseña:">12345</td>
+                                <td data-label="Identificación:">1113478654</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>	    	
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>	    	
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+
+                            <tr>
+                                <td data-label="Nombre y apellido"></td>
+                                <td data-label="Rol"></td>
+                                <td data-label="Correo"></td>
+                                <td data-label="Contraseña"></td>
+                                <td data-label="Identificación"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            
+        </div>
+
+
+        <div class="footer">
+            <P class="copyr">copyrigth: © Plasfacol </P>
+        </div>
+
+
+    </section>
+
+<script src="Js/script.js"></script>
+
+</body>
+</html>
